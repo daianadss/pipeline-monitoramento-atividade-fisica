@@ -16,7 +16,7 @@ Este projeto simula um pipeline de engenharia de dados que coleta, trata, classi
 
 ## Estrutura do pipeline
 
-1. **Coleta:** Os dados são simulados por uma API construída com Flask e acessados por um script coletor com requests. A cada chamada, novos dados são gerados e salvos no arquivo `dados_atividade.csv`.
+1. **Coleta:** Os dados são simulados por uma API construída com Flask e acessados por um script coletor com Requests. A cada chamada, novos dados são gerados e salvos no arquivo `dados_atividade.csv`.
 
 2. **Transformação:** Com Pandas, os dados brutos são carregados, o tipo de dado é ajustado e uma nova coluna é criada (`nivel_por_passos`), classificando o nível da atividade física (Sedentário, Leve, Moderado ou Intenso) com base na quantidade de passos.
 
